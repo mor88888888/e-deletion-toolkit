@@ -72,8 +72,8 @@ Invoke-ps2exe -InputFile .\listFolders.ps1 -OutputFile .\listFolders.exe
 
 ### Obsfuscation VBScript files (optional)
 
-VBScript files in this repository (`.txt` extension) can be obfuscated to reduce
-detection by signature-based security solutions:
+VBScript files in this repository can be obfuscated using [VBScript_Obfuscator](https://github.com/DoctorLai/VBScript_Obfuscator.git)
+to reduce detection by signature-based security solutions:
 
 ```shell
 # Clone the obfuscator
